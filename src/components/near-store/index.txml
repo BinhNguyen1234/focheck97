@@ -1,0 +1,9 @@
+<view class"store-ls">
+    <view class="store-ls-title">{{title}}</view>
+    <view class="img-store-container">
+      <image scaleToFill style="width:100%" default-source src="https://previews.123rf.com/images/svetlam87/svetlam871802/svetlam87180200002/94797870-vector-illustration-of-grocery-store-supermarket-illustration-flat-design-.jpg"/>
+    </view>
+    
+    
+    </view>
+</view> 

@@ -1,6 +1,6 @@
 {
   "name": "fo-check",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "tiki": {
     "appIdentifier": "vn.tiki.miniapp.FoCheck",
     "buildNumber": 1,

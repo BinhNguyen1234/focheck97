@@ -1,0 +1,12 @@
+.store-ls{
+  margin-top: 70rpx;
+}
+.store-ls-title{
+  font-size: 33rpx;
+  font-weight: 600;
+  margin-bottom: 40rpx;                                                                                                                                                                                                                                
+}
+.img-store-container{
+  width: 100%;
+  padding: 0 25rpx;
+}

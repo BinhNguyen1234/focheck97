@@ -4,7 +4,7 @@
   justify-content: space-between;
   padding: 5rpx 10rpx 10rpx 10rpx;
   border-radius: 10rpx;
-  
+  margin-bottom: 50rpx;
   width: 700rpx;
   align-items: center;
   position: relative;
@@ -24,4 +24,7 @@ input {
   border-color:  #00AB56;
  
 
+}
+.img-store-container image{
+  border-radius: 8%;
 }

@@ -15,13 +15,13 @@
     banners="{{banners}}"
     onTapBanner="onTapBanner"
   />
+  <near-store>{{title}}</near-store>
 
-  <view class="section-divider"/>
 
-  <view class="p-medium">
+
+  <!-- <view class="p-medium">
     <section-title
-      title="Danh mục"
-      action="Xem tất cả"
+      title="Cửa hàng gần bạn"
       onTapActionButton="goToCategoryPage"
     />
     <category-carousel
@@ -30,7 +30,7 @@
       categories="{{categories}}"
       onTapCategory="goToSubCategoryPage"
     />
-  </view>
+  </view> -->
 
   <view class="section-divider"/>
 
