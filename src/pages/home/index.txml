@@ -15,7 +15,7 @@
     banners="{{banners}}"
     onTapBanner="onTapBanner"
   />
-  <near-store>{{title}}</near-store>
+  <near-store></near-store>
 
 
 

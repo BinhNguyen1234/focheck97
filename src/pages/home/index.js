@@ -46,40 +46,7 @@ Page({
     categories: [],
   },
 
-  async loadData() {
-    this.setData({
-      isLoading: true,
-    });
-
-    try {
-      const [shop, follow, categories, featuredProducts, newProducts, banners] =
-        await Promise.all([
-          getShopInfoAPI({ sellerId }),
-          myx.isFollowingSeller({ sellerId }),
-          getCategoriesAPI({ sellerId }),
-          getProductsAPI({ sellerId, cursor: 0, limit: 4 }),
-          getProductsAPI({ sellerId, cursor: 0, limit: 4, sort: 'newest' }),
-          getBannersAPI(),
-        ]);
-
-      this.setData({
-        shop,
-        follow,
-        featuredProducts,
-        newProducts,
-        banners,
-        categories: group(categories),
-        isLoading: false,
-      });
-    } catch {
-      my.alert({
-        title: 'Lỗi',
-        content: 'Vui lòng kiểm tra kết nối và thử lại.',
-        success: () => my.exitMiniApp(),
-      });
-    }
-  },
-
+  
   goToCategoryPage() {
     switchTab({
       page: 'category',
