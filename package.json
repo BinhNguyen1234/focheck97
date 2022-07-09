@@ -1,0 +1,20 @@
+{
+  "name": "fo-check",
+  "version": "0.1.0",
+  "tiki": {
+    "appIdentifier": "vn.tiki.miniapp.FoCheck",
+    "buildNumber": 1,
+    "metadata": {
+      "permissions": [
+        "isFollowingSeller",
+        "followSeller",
+        "unfollowSeller"
+      ]
+    }
+  },
+  "dependencies": {
+    "@tiki.vn/mini-html-parser2": "^0.0.4",
+    "@tiki.vn/tini-ui": "0.10.1-rc.4",
+    "query-string": "^7.0.1"
+  }
+}

@@ -1,0 +1,27 @@
+.search-bar {
+  margin-top: 50rpx;
+  display: flex;
+  justify-content: space-between;
+  padding: 5rpx 10rpx 10rpx 10rpx;
+  border-radius: 10rpx;
+  
+  width: 700rpx;
+  align-items: center;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+.filter-btn {
+  display: flex;
+  flex-direction: row;
+  border-color: #00AB56;
+  border-radius: 15rpx;
+  margin-right: 15rpx;
+  color: black;
+}
+input {
+  width: 75%;
+  border-color:  #00AB56;
+ 
+
+}

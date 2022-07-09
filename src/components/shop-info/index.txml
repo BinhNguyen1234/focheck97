@@ -1,0 +1,6 @@
+<import-sjs from="../../utils/common.sjs" name="{numberFormatter}"></import-sjs>
+<view  class="header_bar">
+
+  <view class="shop_info">FoCheck</view>
+  <icon type="chat" size="30" color="#00AB56" />
+</view> 

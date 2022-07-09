@@ -1,0 +1,10 @@
+<view class="search-bar">
+    <button type="outline" class="filter-btn">
+      <icon type="filter" size="{{item}}" />
+      <view>filer</view>
+    </button> 
+     
+    <input>search</input>
+</view>
+
+ 
